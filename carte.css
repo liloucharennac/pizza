@@ -1,0 +1,36 @@
+body{
+	background: #ABC4AA;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+h1{
+	font-size: 60px;
+	color: #F4EEE0;
+}
+
+h2,h3,h4,h5{
+	font-size: 20px;
+	color: #F4EEE0;
+}
+
+ul{
+	text-align: center;
+}
+
+div{
+	background: #5C8984;
+	border-radius: 40px;
+	box-shadow: 10px 10px 20px black;
+	width: 600px;
+	padding: 10px;
+	border: 10px solid #F4EEE0;
+}
+
+
+.carte-center{
+	display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}

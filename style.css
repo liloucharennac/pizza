@@ -1,58 +1,59 @@
 body{
 	text-align: center;
 	background: #ABC4AA;
+  font-family: 'Playfair Display', serif;
 }
-img{
+.devanture{
 	width: 1400px;
 	height: 600px;
-	object-fit: cover;
+	object-fit: cover; }
+
+.cuisto{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
+
+.four{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.pizza{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
 h1{ 
-	font-family: 'Playfair', serif;
 	margin: 10px;
-font-size: 60px;
+  font-size: 60px;
+color: #F4EEE0;
+font-weight: bold;
 }
 
 h2{
 	margin-top: 10px;
-	margin-bottom: 80px;
-	font-family: 'Playfair', serif;
+	margin-bottom: 50px;
+  font-style: italic;
 }
 
-h3{
-	margin-top: 80px;
-	font-family: 'Playfair', serif;
-}
 
-.line-transparent {
+
+
+.images{
   width: 100%;
-  height: 50px;
+  height: 300px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  gap:10px;
 }
 
-.line-light {
-  height: 50px;
-  width: 30%;
-  background: #EE9CA7;
-}
 
-.line-medium {
-  height: 50px;
-  width: 30%;
-  background: #C86472;
-}
-
-.line-hard {
-  height: 50px;
-  width: 30%;
-  background: #9F3442;
-
-
-.navbar 
+.navbar {  
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   background: #5C8984;
   margin: 10px;
@@ -66,4 +67,13 @@ h3{
 .link {
   margin: 10px 30px;
   color: #F4EEE0;
+}
+
+.cadre-fin{
+  border: 1px solid black;
+
+}
+
+.cadre-cuisine{
+  border: 1px solid black;
 }
